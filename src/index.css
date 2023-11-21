@@ -1,3 +1,9 @@
+/* all the tailwind css links */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.appBody{
+
+display: flex;
+justify-content: center;
+background-color: #cee6f3;
+}
+
+.card{
+  height: 50px;
+  width: auto;
+  margin: 4px;
+  background-color: cornsilk;
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+   align-items: flex-start;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.functionality{
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+}
+
+.delete{
+  height: 35px;
+  width: 35px;
+ 
+}
+.navebar{
+  height:50px;
+  width: auto;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+}
+.createContact{
+
+
+background-color: aliceblue;
+}
+
+.buttonStyle {
+  background-color: #ff9900;
+  color: #fff;
+  padding: '10px 20px';
+  border: 'none';
+  border-radius: '4px';
+  cursor: 'pointer',
+};
+.app-spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d6d6d6;
+  border-radius: 50%;
+  border-top-color: #6200ee;
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  margin-right: 10px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+/* styling the scrollbar */
+/* ::-webkit-scrollbar {
+  width: 50px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#ff9900;
+  border-radius: 10px;
+  height: 10px;
+} */
